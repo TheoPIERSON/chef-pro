@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div className="grid items-center h-1/2">
           <button
-            className="text-slate-700 text-center text-2xl md:text-4xl lg:text-5xl drop-shadow-ld bg-white p-4 inline-block mx-auto rounded-xl duration-300
+            className="text-slate-700 text-center text-2xl md:text-4xl lg:text-5xl drop-shadow-ld bg-white p-2 pr-4 pl-4 inline-block mx-auto rounded-full duration-300
           hover:text-white hover:bg-slate-700"
           >
             Register
