@@ -1,5 +1,6 @@
 import Header from "./components/header";
 import Navbar from "./components/navbar";
+import NewsletterForm from "./components/newsletter-form";
 import ProductDescription from "./components/product-description";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <ProductDescription />
+      <NewsletterForm />
     </main>
   );
 }
