@@ -8,7 +8,7 @@ const ProductDescription = () => {
           Most hergonomic handle ever made
         </h1>
         <div className="flex justify-center items-center">
-          <img src="assets/images/knife-handle.jpg" alt="" className="h-72 md:h-1/2 md:w-1/3 w-1/2 p-1 rounded-3xl" />
+          <img src="assets/images/knife-handle.jpg" alt="" className="h-72 md:h-1/2 md:w-1/3 w-1/2 p-1 " />
           <p className="w-1/2 md:w-1/3 md:ml-20 text-xs md:text-3xl text-start p-2 h-64 flex items-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur consequuntur tenetur autem sapiente
             doloremque voluptatem excepturi, reprerit, eligendi aliquam dicta aliquid earum at ut et atque a laborum.
