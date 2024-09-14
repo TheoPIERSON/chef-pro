@@ -2,49 +2,41 @@ import React from "react";
 
 const ProductDescription = () => {
   return (
-    <ul className="mt-2">
-      <li>
-        <h1 className="font-bold p-2 text-start text-3xl md:text-5xl text-slate-700 h-20 flex items-center">
-          Most hergonomic handle ever made
-        </h1>
-        <div className="flex justify-center items-center">
-          <img src="assets/images/knife-handle.jpg" alt="" className="h-72 md:h-1/2 md:w-1/3 w-1/2 p-1 " />
-          <p className="w-1/2 md:w-1/3 md:ml-20 text-xs md:text-3xl text-start p-2 h-64 flex items-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur consequuntur tenetur autem sapiente
-            doloremque voluptatem excepturi, reprerit, eligendi aliquam dicta aliquid earum at ut et atque a laborum.
-            Doloribus commodi nam accusamus officiis aliquid deserunt hic magnam. Accusantium ullam unde perferendis
-            debitis optio eius illo in, eveniet eum, illum laborum veniam doloremque repellat alias ipsum molestiae
-            quibusdam!
+    <ul className="md:flex">
+      <li className="mt-1">
+        <div className="relative">
+          <img src="assets/images/knife-handle.jpg" alt="" className="h-screen w-screen" />
+          <h1 className="absolute top-0 left-0 font-bold p-2 text-start text-6xl text-slate-200">
+            Most hergonomic handle ever made
+          </h1>
+          <p className="drop-shadow-md w-full text-xl text-left p-4 absolute bottom-0 text-slate-200">
+            The ChefPro 360’s handle is designed for maximum comfort and precision. Its ergonomic shape fits naturally
+            in your hand, reducing fatigue during extended use, while providing superior grip and control.
           </p>
         </div>
       </li>
-      <li>
-        <h1 className="font-bold p-2 text-start text-3xl md:text-5xl text-slate-700 h-20 flex items-center">
-          Long lasting sharp blade
-        </h1>
-        <div className="flex justify-center items-center">
-          <p className="w-1/2 md:w-1/3 md:mr-20 text-xs md:text-3xl text-end p-2 h-64 flex items-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur consequuntur tenetur autem sapiente
-            doloremque voluptatem excepturi, reprerit, eligendi aliquam dicta aliquid earum at ut et atque a laborum.
-            Doloribus commodi nam accusamus officiis aliquid deserunt hic magnam. Accusantium ullam unde perferendis
-            debitis optio eius illo in, eveniet eum, illum laborum veniam doloremque repellat alias ipsum molestiae
-            quibusdam!
+      <li className="mt-1">
+        <div className="relative">
+          <img src="assets/images/knife-top.jpg" alt="" className="h-screen w-screen" />
+          <h1 className="absolute top-0 left-0 font-bold p-2 text-start text-6xl text-slate-200">
+            Long lasting sharp blade
+          </h1>
+          <p className="drop-shadow-md w-full text-xl text-left p-4 absolute bottom-0 text-slate-200">
+            The ChefPro 360’s blade is crafted from high-quality stainless steel, ensuring long-lasting durability and
+            resistance to wear. Its razor-sharp edge stays sharp through extended use, offering precision cuts every
+            time.
           </p>
-          <img src="assets/images/knife-top.jpg" alt="" className="h-72 md:h-1/2 md:w-1/3 w-1/2 p-1 rounded-3xl" />
         </div>
       </li>
-      <li>
-        <h1 className="font-bold p-2 text-start text-3xl md:text-5xl text-slate-700 h-20 flex items-center">
-          Made to cook anything
-        </h1>
-        <div className="flex justify-center items-center">
-          <img src="assets/images/knife-salmon.jpg" alt="" className="h-72 md:h-1/2 md:w-1/3 w-1/2 p-1 rounded-3xl" />
-          <p className="w-1/2 md:w-1/3 md:ml-20 text-xs md:text-3xl text-start p-2 h-64  flex items-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In pariatur consequuntur tenetur autem sapiente
-            doloremque voluptatem excepturi, reprerit, eligendi aliquam dicta aliquid earum at ut et atque a laborum.
-            Doloribus commodi nam accusamus officiis aliquid deserunt hic magnam. Accusantium ullam unde perferendis
-            debitis optio eius illo in, eveniet eum, illum laborum veniam doloremque repellat alias ipsum molestiae
-            quibusdam!
+      <li className="mt-1">
+        <div className="relative">
+          <img src="assets/images/knife-salmon.jpg" alt="" className="h-screen w-screen" />
+          <h1 className="absolute top-0 left-0 font-bold p-2 text-start text-6xl text-slate-200">
+            Made to cook anything
+          </h1>
+          <p className="drop-shadow-md w-full text-xl text-left p-4 absolute bottom-0 text-slate-200">
+            The ChefPro 360 is your all-in-one kitchen tool, expertly designed to slice through all types of
+            ingredients—from delicate herbs to tough meats. Its versatile design makes it perfect for any culinary task.
           </p>
         </div>
       </li>
