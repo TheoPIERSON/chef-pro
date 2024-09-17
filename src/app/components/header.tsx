@@ -21,14 +21,15 @@ const Header = () => {
           </h1>
         </div>
         <div className="grid items-center h-1/2">
-          <button
+          <a
+            href="#subscribe"
             className="text-slate-700 text-center text-2xl md:text-4xl lg:text-5xl drop-shadow-ld bg-white p-2 pr-4 pl-4 inline-block mx-auto rounded-full duration-300
           hover:text-white hover:bg-slate-700"
           >
             Register
-          </button>
+          </a>
           <h3 className="text-white text-center top-2/3 text-2xl md:text-5xl lg:text-6xl drop-shadow-ld">
-            to be on the waiting list
+            And get a 20% discount
           </h3>
         </div>
       </div>
