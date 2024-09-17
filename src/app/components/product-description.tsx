@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductDescription = () => {
   return (
-    <section>
+    <section id="product-description">
       <ul className="md:flex">
         <li className="mt-1 relative group">
           <div className="relative">
