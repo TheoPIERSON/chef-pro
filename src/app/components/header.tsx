@@ -28,7 +28,7 @@ const Header = () => {
           >
             Register
           </a>
-          <h3 className="text-white text-center top-2/3 text-2xl md:text-5xl lg:text-6xl drop-shadow-ld">
+          <h3 className="text-white text-center top-2/3 text-2xl md:text-4xl lg:text-4xl drop-shadow-ld">
             And get a 20% discount
           </h3>
         </div>
