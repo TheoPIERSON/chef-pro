@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsletterForm = () => {
   return (
-    <form id="subscribe" action="" className="grid place-items-center justify-center mt-20">
+    <form id="subscribe" action="" className="grid place-items-center justify-center mt-32 mb-20">
       <h1 className="font-bold p-8 text-center text-3xl md:text-5xl text-slate-700 h-20 flex items-center">
         Register to be the first to have access to the Chef Pro 360
       </h1>
