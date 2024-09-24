@@ -36,7 +36,7 @@ const NewsletterForm: React.FC = () => {
       />
 
       {/* Message d'erreur si l'email est invalide */}
-      {isValid === false && <p className="text-red-500">Please add a valid email address</p>}
+      {isValid === false && <p className="text-red-500 m-2">Please add a valid email address</p>}
 
       <button
         type="submit"
@@ -46,7 +46,7 @@ const NewsletterForm: React.FC = () => {
       </button>
 
       {/* Message de succès si l'email est valide */}
-      {isValid === true && <p className="text-green-500">Thank you for registering for the Chef Pro 360</p>}
+      {isValid === true && <p className="text-green-500 m-2">Thank you for registering for the Chef Pro 360</p>}
     </form>
   );
 };
