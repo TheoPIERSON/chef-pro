@@ -42,8 +42,8 @@ const Questions = () => {
   return (
     <section className="p-5">
       <div className="flex justify-center items-start my-2">
-        <div className="w-full sm:w-10/12 md:w-1/2 my-1">
-          <h2 className="text-xl font-semibold text-slate-700 mb-2">FAQ</h2>
+        <div className="w-full sm:w-10/12">
+          <h1 className="font-bold p-8 text-center text-3xl md:text-5xl text-slate-700 h-20 ">FAQ</h1>
           <ul className="flex flex-col">
             {faqData.map((item, index) => (
               <li key={index} className="bg-white my-2 shadow-lg">
